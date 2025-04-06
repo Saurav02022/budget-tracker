@@ -232,8 +232,8 @@ The frontend uses React with TypeScript and follows these architectural patterns
 
 The application is deployed to:
 
-- **Frontend**: [https://budget-app-demo.vercel.app](https://budget-app-demo.vercel.app)
-- **Backend API**: [https://budget-api-demo.onrender.com](https://budget-api-demo.onrender.com)
+- **Frontend**: [https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app](https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app)
+- **Backend API**: [https://budget-tracker-backend-4x2g.onrender.com](https://budget-tracker-backend-4x2g.onrender.com)
 
 ### Deployment Process
 
@@ -241,11 +241,14 @@ The application is deployed to:
    - Deployed to Render.com
    - Environment variables configured for production settings
    - CORS configured to allow frontend origin
+   - PostgreSQL database set up for production data
+   - App deployed from GitHub repository
 
 2. **Frontend Deployment**:
    - Deployed to Vercel
    - Build configured with production API URL
    - Client-side routing supported via Vercel configuration
+   - TypeScript checking bypassed during build for deployment
 
 ## Login Credentials
 

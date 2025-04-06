@@ -12,7 +12,7 @@ import {
 
 // Create axios instance
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api',
+    baseURL: 'https://budget-tracker-backend-4x2g.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
     },

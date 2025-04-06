@@ -21,8 +21,8 @@ A full-stack personal finance application built with Django REST Framework and R
 ## Quick Start
 
 ### Demo Access
-- **Frontend:** https://budget-app-demo.vercel.app
-- **API:** https://budget-api-demo.onrender.com
+- **Frontend:** https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app
+- **API:** https://budget-tracker-backend-4x2g.onrender.com
 - **Credentials:** Username: `demouser` / Password: `demopassword`
 
 ### Local Setup
@@ -84,6 +84,16 @@ This project was developed with the assistance of Cursor AI to accelerate:
 While Cursor AI provided assistance, all generated code was reviewed and customized to meet the application requirements.
 
 ## Deployment
+
+**Backend Deployment:**
+1. Backend API is successfully deployed at: https://budget-tracker-backend-4x2g.onrender.com
+2. Hosting platform: Render.com
+3. Using PostgreSQL database for production
+
+**Frontend Deployment:**
+1. Frontend is successfully deployed at: https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app
+2. Hosting platform: Vercel
+3. Using automatic deployments from the main branch
 
 **Environment Configuration:**
 1. Set `DEBUG=False` in Django settings
