@@ -67,7 +67,6 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://budget-tracker-frontend-one.vercel.app",
-    "https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app",
     "http://localhost:5173",  # For local development
 ]
 CORS_ALLOW_CREDENTIALS = True
