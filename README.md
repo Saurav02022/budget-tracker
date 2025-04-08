@@ -21,7 +21,7 @@ A full-stack personal finance application built with Django REST Framework and R
 ## Quick Start
 
 ### Demo Access
-- **Frontend:** https://budget-tracker-frontend-b53cw74e1-saurav02022s-projects.vercel.app
+- **Frontend:** budget-tracker-frontend-one.vercel.app
 - **API:** https://budget-tracker-backend-4x2g.onrender.com
 - **Credentials:** Username: `demouser` / Password: `demopassword`
 
