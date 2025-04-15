@@ -1,0 +1,31 @@
+# Root .gitignore file
+# This file contains patterns common to the entire repository
+# Frontend and backend directories have their own specific .gitignore files
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log 
